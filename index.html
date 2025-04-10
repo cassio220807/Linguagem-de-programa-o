@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
+  <link rel="icon" type="image/png" href="icon.png">
+  <title>Programação</title>
+  <style>
+    .but.selecionado {
+      background-color: #87CEEB;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <form id="quizForm" action="#">
+      <div class="ingres">
+        <h1>Mariana's Programming Day</h1>
+        <p class="texto">
+          Mariana is a programming student and she loves technology. She is 17 years old and she is in the third year of high school. During the week, she wakes up early, has breakfast, and attends her technical classes in Systems Analysis. After class, she studies languages like Python and JavaScript.
+         <br>
+         <br>
+         Right now, Mariana is programming a task app on her computer. She is using HTML, CSS, and JavaScript to build the interface. Her classmates Pedro and Aline are helping with design ideas. They are not playing or chatting — they are all focused on the project.
+         <br>
+         On weekends, Mariana usually participates in online programming challenges. She enjoys solving problems and learning new things. Sometimes, she also teaches her little brother how to use the computer.
+        <br>
+        <br>
+        Mariana wants to work with web development in the future. She knows she needs to study a lot, but she is excited about the possibilities that technology offers.
+        </p>
+      </div>
+      <div class="programacao1">
+        <h1>Programação</h1>
+        <p>
+          A linguagem de programação é um conjunto de regras e sintaxes que permite aos programadores comunicar-se com os computadores e criar software. Assim como as línguas faladas possuem gramática e vocabulário, as linguagens de programação possuem uma sintaxe específica, que define como os comandos e instruções devem ser escritos. Essas linguagens possibilitam que os programadores escrevam códigos que o computador possa entender e executar para realizar tarefas específicas, como resolver problemas, controlar sistemas ou desenvolver aplicativos.
+        <br>
+        <br>
+        Existem diversos tipos de linguagens de programação, e cada uma delas é mais adequada a diferentes tipos de projetos. Linguagens como Python, JavaScript e Java são amplamente utilizadas em várias áreas da tecnologia, incluindo desenvolvimento web, análise de dados, inteligência artificial e aplicativos móveis. Cada linguagem tem suas próprias características e níveis de abstração, o que influencia sua facilidade de uso, desempenho e a complexidade do código gerado.
+        </p>
+      </div>
+
+      <div class="barr"></div>
+
+      <div class="pergunta">
+        <!-- Questões em inglês -->
+        <div class="pergunta1 pr3">
+          <h2>1. Mariana ______ 17 years old.</h2>
+          <ul>
+            <li><button type="button" id="A1" class="but">a) To be – affirmative: is</button></li>
+            <li><button type="button" id="A2" class="but">b) To be – negative: isn’t</button></li>
+            <li><button type="button" id="A3" class="but">c) Present Continuous – affirmative: is being</button></li>
+            <li><button type="button" id="A4" class="but">d) Simple Present – affirmative: has</button></li>
+          </ul>
+        </div>
+
+        <div class="pergunta2 pr3">
+          <h2>2. She ______ programming a task app right now.</h2>
+          <ul>
+            <li><button type="button" id="B1" class="but">a) Present Continuous – affirmative: is</button></li>
+            <li><button type="button" id="B2" class="but">b) Simple Present – negative: doesn’t</button></li>
+            <li><button type="button" id="B3" class="but">c) To be – affirmative: am</button></li>
+            <li><button type="button" id="B4" class="but">d) Simple Present – interrogative: do</button></li>
+          </ul>
+        </div>
+
+        <div class="pergunta3 pr3">
+          <h2>3. Pedro and Aline ______ helping with the design.</h2>
+          <ul>
+            <li><button type="button" id="C1" class="but">a) Simple Present – affirmative: help</button></li>
+            <li><button type="button" id="C2" class="but">b) Present Continuous – affirmative: are</button></li>
+            <li><button type="button" id="C3" class="but">c) Present Continuous – negative: aren’t</button></li>
+            <li><button type="button" id="C4" class="but">d) To be – interrogative: Is</button></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="barr"></div>
+
+      <!-- Questões sobre programação -->
+      <div class="programacao pergunta">
+        <div class="pergunta4 pr3">
+          <h2>4. O que é uma linguagem de programação?</h2>
+          <ul>
+            <li><button type="button" id="D1" class="but">a) Uma ferramenta que permite que os computadores se comuniquem com os seres humanos.</button></li>
+            <li><button type="button" id="D2" class="but">b) Um conjunto de comandos e regras que permite a comunicação entre programadores e computadores.</button></li>
+            <li><button type="button" id="D3" class="but">c) Um sistema operacional usado para executar programas.</button></li>
+            <li><button type="button" id="D4" class="but">d) Um banco de dados utilizado para armazenar código-fonte.</button></li>
+          </ul>
+        </div>
+
+        <div class="pergunta5 pr3">
+          <h2>5. Qual das seguintes linguagens é usada para desenvolvimento web?</h2>
+          <ul>
+            <li><button type="button" id="E1" class="but">a) Python</button></li>
+            <li><button type="button" id="E2" class="but">b) C</button></li>
+            <li><button type="button" id="E3" class="but">c) JavaScript</button></li>
+            <li><button type="button" id="E4" class="but">d) Assembly</button></li>
+          </ul>
+        </div>
+
+        <div class="pergunta6 pr3">
+          <h2>6. O que é um "loop" em programação?</h2>
+          <ul>
+            <li><button type="button" id="F1" class="but">a) Uma função que organiza os dados em uma estrutura hierárquica.</button></li>
+            <li><button type="button" id="F2" class="but">b) Uma estrutura de controle que repete um bloco de código várias vezes até que uma condição seja atendida.</button></li>
+            <li><button type="button" id="F3" class="but">c) Uma linguagem de programação usada para criar gráficos.</button></li>
+            <li><button type="button" id="F4" class="but">d) Um erro no código que faz o programa travar.</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="resposta" id="resultado"></div>
+      <div class="dados">
+        <input type="submit" id="enviar" class="enviar" value="Enviar">
+      </div>
+    </form>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

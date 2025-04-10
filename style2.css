@@ -1,0 +1,27 @@
+.pr3{
+    height: auto;
+    margin-bottom: 30px;
+    border: solid;
+    border-radius: 8px;
+    border-color: rgb(123, 128, 129);
+    
+}
+.enviar{
+    border-style: none;
+    background-color: rgb(123, 128, 129);
+    padding: 5px;
+    border-radius: 5px;
+}
+.enviar:hover{
+    background-color: rgb(78, 80, 80);
+}
+.enviar:active{
+    background-color: rgb(123, 128, 129);
+}
+.but.selecionado {
+    background-color: #87CEEB; /* Azul claro */
+  }
+.resposta{
+    margin: auto;
+    width: 300px;
+}
